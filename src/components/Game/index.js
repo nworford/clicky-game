@@ -8,11 +8,11 @@ import ClickItem from "../ClickItem";
 const itemDetails = [
         {
             id:1,
-            src: "../assets/images/1.jpg",
+            src: "../../public/assets/images/1.jpg",
         },
         {
             id:2,
-            src: "../assets/images/2.jpg"
+            src: "../../public/assets/images/2.jpg"
         },
         {
             id:3,
