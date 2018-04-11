@@ -2,57 +2,68 @@
 import "./Game.css";
 import React, { Component } from "react"; 
 import ClickItem from "../ClickItem";
-
+import imageOne from "/images/1.jpg";
+import imageTwo from "/images/2.jpg"
+import imageThree from "/images/3.png"
+import imageFour from "/images/4.png"
+import imageFive from "/images/5.png"
+import imageSix from "/images/6.png"
+import imageSeven from "/images/7.png"
+import imageEight from "/images/8.png"
+import imageNine from "/images/9.png"
+import imageTen from "/images/10.png"
+import imageEleven from "/images/11.png"
+import imageTwelve from "/images/12.png"
 
 
 const itemDetails = [
         {
             id:1,
-            src: "./assets/images/1.jpg",
+            src: imageOne,
         },
         {
             id:2,
-            src: "./assets/images/2.jpg"
+            src: imageTwo,
         },
         {
             id:3,
-            src: "../assets/images/3.png"
+            src: imageThree,
         },
         {
             id:4,         
-            src: "../assets/images/4.png"
+            src: imageFour,
         },
         {
             id:5,
-            src: "../assets/images/5.png"
+            src: imageFive,
         },
         {
             id:6,
-            src: "../assets/images/6.png"
+            src: imageSix,
         },
         {
             id:7,
-            src: "../assets/images/7.png"
+            src: imageSeven,
         },
         {
             id:8,
-            src: "../assets/images/8.png"
+            src: imageEight,
         },
         {
             id:9,
-            src: "../assets/images/9.png"
+            src: imageNine,
         },
         {
             id:10,
-            src: "../assets/images/10.png"
+            src: imageTen,
         },
         {
             id:11,
-            src: "../assets/images/11.png"
+            src: imageEleven,
         },
         {
             id:12,
-            src: "../assets/images/12.png"
+            src: imageTwelve
         }
 
 
