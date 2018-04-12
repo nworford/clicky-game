@@ -2,18 +2,18 @@
 import "./Game.css";
 import React, { Component } from "react"; 
 import ClickItem from "../ClickItem";
-import imageOne from "/images/1.jpg";
-import imageTwo from "/images/2.jpg"
-import imageThree from "/images/3.png"
-import imageFour from "/images/4.png"
-import imageFive from "/images/5.png"
-import imageSix from "/images/6.png"
-import imageSevem from "/images/7.png"
-import imageEight from "/images/8.png"
-import imageNine from "/images/9.png"
-import imageTen from "/images/10.png"
-import imageEleven from "/images/11.png"
-import imageTwelve from "/images/12.png"
+import imageOne from "./images/1.jpg";
+import imageTwo from "./images/2.jpg"
+import imageThree from "./images/3.png"
+import imageFour from "./images/4.png"
+import imageFive from "./images/5.png"
+import imageSix from "./images/6.png"
+import imageSeven from "./images/7.png"
+import imageEight from "./images/8.png"
+import imageNine from "./images/9.png"
+import imageTen from "./images/10.png"
+import imageEleven from "./images/11.png"
+import imageTwelve from "./images/12.png"
 
 
 const itemDetails = [
