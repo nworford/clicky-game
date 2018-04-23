@@ -27,3 +27,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.jumbotron h1{
+  font-size:40px;
+}
+
+footer {
+  height:15px;
+  text-align:center;
+  
+}
