@@ -1,3 +1,85 @@
+
+ABOUT CLICKY GAME:
+
+CLICKY GAME React homework assignment. Instructions were as follows:
+
+1.Check out the example solution and study the app's basic functionality.
+
+2.Create a new React application using Create React App.
+
+3.The application should render different images (of your choice) to the screen. Each image should listen for click events.
+
+4.The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
+
+5.Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
+
+6. Once the user's score is reset after an incorrect guess, the game should restart.
+
+7.When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
+
+TECH USED: HTML, CSS, JavaScript, XML, React
+
+HIGHLIGHT CODE:
+
+The “handleCorrectGuesses” function checks if the user’s guess is successful or not and reacts accordingly. First, it loops over the IDs which have been guessed already. If the ID which has just been guessed is found to match the IDs already, it will set the “headerMessage” to “You lose!”, and If not it will set the “headerMessage” to say “You guessed correctly!”, add one to the score, and check to see if the current score is higher than the “topScore” and reset that score if appropriate.
+
+handleCorrectGuesses = (id) => {
+
+    
+
+    for (var i=0; i < this.state.guessedId.length; i++){
+
+      if(id === this.state.guessedId[i]){
+
+          this.setState({headerMessage: "You lose!"})
+
+          this.setState({gameState:"game over."})
+
+          this.resetGame();
+
+          return;
+
+      }
+
+    }
+
+    this.setState({headerMessage: "You guessed correctly!"})
+
+      var scorePlusOne = this.state.score +1;
+
+    this.setState({score: scorePlusOne})
+
+        if(this.state.score >= this.state.topScore){
+
+          this.setState({topScore: scorePlusOne})
+
+
+
+
+        }
+
+          return;
+
+
+
+
+
+
+};
+
+
+CONCLUSION: 
+	In completing this assignment, I got an introduction into how to use React. I really enjoyed the use of XML and components. 
+
+GRADE: A-
+
+INSTRUCTOR COMMENT:
+
+from Dylan Acup 
+April 11th, 7:17 pm
+
+Great work on the clicky game! All of the proper functionality is there with the only thing missing being the correct pathing for the photos. I'd say hang out before or after class sometime so that the TA's and instructor can take a look at the pathing for them if you ever want to try getting them fixed!
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
